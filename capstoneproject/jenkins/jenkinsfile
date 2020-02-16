@@ -55,7 +55,7 @@ node {
         }
 	
 	stage('Downstream Build -- Docker Deployment'){
-	 build 'pipe-Docker'
+	 build 'docker-pipeline'
 	}
 }  
 
